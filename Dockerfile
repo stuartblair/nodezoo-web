@@ -2,7 +2,9 @@
 
 FROM node:4
 
-ADD . /
+#ADD . /
+VOLUME microservice
+WORKDIR microservice
 
 EXPOSE 8000
 EXPOSE 43000
